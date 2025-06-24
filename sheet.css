@@ -1,0 +1,37 @@
+body{
+    background-color: palevioletred;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../../../../Pictures/vvv.webp");
+    background-size: cover;
+    background-position: center;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 70px;
+    color: white;
+}
+.stopwatch h1{
+    font-size: 40px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button img{
+    width: 40px;
+    max-width: 100px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.button img:nth-child(2){
+    width: 120px;
+}
+#date {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
